@@ -8,7 +8,7 @@ Connecting from client with:
 ```
 telnet 127.0.0.1 8888
 ```
-Try connecting with multiple client and send some messages, you'll see an echo.
+Try connecting with multiple clients and send some messages, you'll see an echo.
 
 ## Installation
 
