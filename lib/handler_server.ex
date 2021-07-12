@@ -17,6 +17,7 @@ defmodule HandlerServer do
     # Handle data from incoming socket
     IO.inspect(data, label: "incoming data:")
     :inet.setopts(socket, active: :once)
+    :gen_tcp.send(socket, data)
     {:noreply, state}
   end
 
