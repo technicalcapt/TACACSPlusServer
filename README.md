@@ -1,6 +1,13 @@
 # TcpServer
 
-**TODO: Add description**
+Running the application from local:
+```
+PORT=8888 iex -S mix
+```
+Connecting from client with:
+```
+telnet 127.0.0.1 8888
+```
 
 ## Installation
 
